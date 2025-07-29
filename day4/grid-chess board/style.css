@@ -1,0 +1,36 @@
+.container {
+  width: 400px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr;
+}
+
+.black,
+.blue{
+  width: 100px;
+  height: 100px;
+}
+
+.black {
+  background-color: black;
+}
+
+.blue {
+  background-color: blue;
+}
+
+@media screen and (max-width: 900px) {
+  .black {
+    background-color: yellow;
+  }
+}
+
+@media screen and (max-width: 441px) {
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .black {
+    background-color: red;
+  }
+}
