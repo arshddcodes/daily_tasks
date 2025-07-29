@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+}
+.header h1 {
+  color: white;
+  scale: 1;
+  transition: all 1s ease;
+}
+
+.header:hover h1 {
+  color: red;
+  scale: 1.1;
+}
+
+.container {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  background-color: blue;
+  padding: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 10px;
+}
+
+.movie-card {
+  height: 300px;
+  width: 250px;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+.movie-card:hover {
+  scale: 1.1;
+}
+
+.movie-card img {
+  margin-top: 10px;
+  border-radius: 22px;
+  height: 300px;
+  width: 250px;
+  background-color: white;
+  position: relative;
+  object-fit: cover;
+}
+
+.movie-inf {
+  position: relative;
+  z-index: 2;
+  border-radius: 22px;
+  margin-top: -140px;
+  height: 130px;
+  width: 250px;
+  background-color: white;
+}
+
+.movie-inf h1 {
+  /* margin-left: 10px;
+    margin-top: 10px; */
+  text-align: center;
+  margin-top: 10px;
+  font-size: 24px;
+}
+.movie-inf p {
+  font-size: 12px;
+  margin-left: 8px;
+  text-align: center;
+}
+
+/* media queries */
+@media (max-width: 441px) {
+  .container {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    padding: 20px;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 361px) {
+  .container {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    padding: 20px;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+    gap: 10px;
+  }
+}
+
