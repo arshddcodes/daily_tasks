@@ -2,13 +2,13 @@
 // Code to be executed in each iteration
 // }
 
-// for (let e = 0; e < 5; e++) {
-//   console.log("Iteration: " + e);
-// }
+for (let e = 2; e < tar; e++) {
+  console.log("Iteration: " + e);
+}
 
 
-let i = 1;
-while (i < 5) {
+
+while (i < tar) {
   console.log("while condition",i);
   i++;
 }
