@@ -36,6 +36,6 @@ function exampleFunction() {
   console.log(b);
 }
 
-console.log("Outside function");
-console.log(x);
-console.log(b);
+// console.log("Outside function");
+// console.log(x);
+// console.log(b);

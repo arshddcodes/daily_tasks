@@ -1,7 +1,6 @@
 //array
 const hey = 3;
-const arr = [
-  1,
+const arr = [1,
   {
     name: "midelaj",
   },

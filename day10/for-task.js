@@ -66,15 +66,83 @@
 //     output += "*";
 //   }
 //   console.log(output);
+
+// for (let row = 0; row <=5; row++ ){
+//   let output = "";
+//   for (let j = 0; j <= row; j++){
+//     output += "";
+//   }
+//     for (let j = 0; j <= row; j++){
+//     output += "*";
+
+//   console.log(output);
+
+// }
+// }
+
+// for (let row = 0; row <= 5; row++) {
+//   let output = "";
+
+//   for (let space = row ; space <=5 ; space++) {
+//     output += " ";
+//   }
+//   for (let star = 0; star < 2 * row - 1; star++){
+//     output += "*";
+//   }
+
+//   console.log(output);
 // }
 
 
-for (let i = 4; i >= 0; i--) {
-  let output = "";
-  for (let j = 0; j <= i; j++) {
-    output += "*";
-  }
-  console.log(output);
+
+
+// for (let row = 5; row >= 0; row--) {
+//   let output = "";
+
+//   for (let space = row; space <= 5; space++) {
+//     output += " ";
+//   }
+//   for (let star = 0; star < 2 * row - 1; star++) {
+//     output += "*";
+//   }
+  
+//   console.log(output);
+
+// }
+
+
+// for (let row = 0; row <= 3; row++) {
+//   let output = "";
+
+//   for (let space = row ; space <=3 ; space++) {
+//     output += " ";
+//   }
+//   for (let number = 1 ; number<=2 * row -1; number++){
+//     output += row;
+//   }
+//   console.log(output);
+// }
+
+
+
+// for (let number = 1; number <= 10; number++){
+//     let div = number % 2;
+//     if(div === 0){
+//         console.log(number)
+//     }
+// }
+for (let j=0 ; j<=5; j++){
+    let div = j % 2;
+    if (div === 0){
+        console.log(j)
+    }
 }
 
 
+
+// for (let number = 1; number <= 10; number++){
+//     let div = number % 2;
+//     if(div === 0){
+//         console.log(number)
+//     }
+// }
